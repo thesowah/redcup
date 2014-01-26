@@ -6,7 +6,7 @@
     font-family: 'handwritting';
     font-style: normal;
     font-weight: 500;
-    src: url('{{site.url}}/res/tallpaul.ttf')
+    src: url('{site.url}/res/tallpaul.ttf')
         format('truetype');
 }
 
