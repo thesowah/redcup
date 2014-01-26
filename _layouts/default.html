@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+    {% include head.html %}
+    <body{% if page.wide_layout %} class="wide"{% endif %}>   
+
+        <!--<div id="wrapper">-->
+        <div class="search-wrapper">
+            <div class="search-form">
+                <input type="text" class="search-field" placeholder="Search...">
+                <i class="fa fa-times icon-remove-sign"></i>
+                <ul class="search-results post-list"></ul><!-- /.search-results -->
+            </div><!-- /.search-form -->
+        </div><!-- ./search-wrapper -->
+
+        <iframe id="sidebar"></iframe>
+        <header>
+            <h1 class="logo" id="blog-title"><a href="{{site.url}}">{{ site.title }}</a></h1>
+            <ul class="navigation">        
+                <li><a href="{{site.url}}/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Archived articles">Archive</a></li>
+                <li><a href="{{site.url}}/about/"{% if page.url contains "/about/" %}class="active"{% endif %}>About me</a></li>
+            </ul>
+        </header>                 
+
+        {{ content }}
+
+        {% if paginator.page %}
+        <div id="paginator" class="content">
+            {% if paginator.next_page %}
+            <a href="{{site.url}}/page{{ paginator.next_page }}/">Older entries</a>
+            {% endif %}
+            {% if paginator.previous_page %}
+            <a href="{{site.url}}/page{{ paginator.previous_page }}/">Newer entries</a>
+            {% endif %}
+        </div>
+        {% endif %}
+
+        {% unless page.no_footer %}
+        <footer>
+            <p>Powered by Jekyll - <a href="http://github.com/nadjetey/redcup">Redcup</a> Theme</p>
+            <p>
+                <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US" class="cc"><img src="{{site.url}}/res/cc-cc.png" class="cc">
+                    <img src="{{site.url}}/res/cc-by.png" class="cc"></a>
+                This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons License</a>
+            </p>
+        </footer>
+        {% endunless %}
+
+        {% include disqus.html %}
+        {% include analytics.html %}
+        {% include pagescript.html %}       
+    </body>
+</html>

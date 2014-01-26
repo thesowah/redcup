@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="content{% if page.photo_url %} photo-post{% endif %}">
+    <div class="post single">
+        {% unless page.photo_url %}
+        <h1>{{ page.title }}</h1>
+        <info datetime="{{ page.date | date: "%Y-%m-%d" }}">
+            {{ page.date | date: "%b %d, %Y" }}
+        </info>
+        {% endunless %}
+        <div class="body">{{ content }}</div>
+        <!-- <div class="breaker"></div> -->
+        <div class="breaker"></div>        
+    </div>  
+
+    <div class="comments container">
+        <div id="disqus_thread"></div>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+</div>
+

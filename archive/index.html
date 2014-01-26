@@ -1,0 +1,16 @@
+---
+layout: page
+title: Archive
+---
+<img src="/res/archive.png" width="64" height="64" align="right" alt="archive">
+<p>    
+    <input class="dosearch" type="text" name="q" id="cse-search-field" placeholder="Search..." />
+</p>
+
+<ul>
+    {% for post in site.posts %}
+    <li>
+        {{ post.date | date: "%b %d, %Y"  }} &mdash; <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
