@@ -7,7 +7,7 @@ pygments: true
 permalink: /:year/:month/:day/:title.html
 markdown: redcarpet
 
-google_analytics: UA-47113829-1
+google_analytics: #
 
 owner:
   name: Nii Adjetey Sowah
