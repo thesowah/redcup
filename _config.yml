@@ -1,14 +1,9 @@
 title: RedCup
 description: "Redcup: An awesome Theme for Jekyll"
-<<<<<<< HEAD
+
 url: http://nadjetey.github.io/redcup
 port: 3000
 highlighter: pygments
-=======
-
-url: http://nadjetey.github.io/redcup/
-pygments: true
->>>>>>> url
 
 permalink: /:year/:month/:day/:title.html
 markdown: redcarpet
@@ -19,4 +14,3 @@ owner:
   name: Nii Adjetey Sowah
   disqus_shortname: nadjetey
   twitter: _nadjetey
-
