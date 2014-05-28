@@ -35,7 +35,7 @@ While using this blog as a "mind dump" for ideas and technical tutorials won't p
 
 In this profession, I wear a lot of hats and I balance a lot of skillsets. I may use a library like [cURL](http://curl.haxx.se/libcurl/) for a small one-off project, or use [Chef](http://www.opscode.com/chef/) to customize my server environment for a customer, or run into some quirky syntax in a programming language I occasionally use, and then never use that knowledge again until 12 months later. If I document these experiences in writing, I not only have a better chance of retaining my acquired knowledge, I don't really have to remember it at all:
 
-> "The things that were once in my brain – now Google can find them!"  
+> "The things that were once in my brain – now Google can find them!"
 > — [Lorna Jane Mitchell](http://www.lornajane.net/) at [php\[tek\]](http://tek.phparch.com/)
 
 Since everything I write is public and indexable, all I have to do is look back into my blog history or Google it. This blog will serve as my second external brain.

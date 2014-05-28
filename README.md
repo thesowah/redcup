@@ -1,7 +1,9 @@
-redcup
+RedCup
 ======
-This is a Jekyll Theme. Rasmus Andersson's Theme was used as a base framework for redcup.
+This is a Jekyll Theme. Rasmus Andersson's blog was used as a base framework for RedCup.
 Check it out [here](http://nadjetey.github.io/redcup/)
+
+I would love to hear from you. Just say [hi](https://twitter.com/_nadjetey).
 
 ## Screenshots
 
