@@ -2,7 +2,7 @@ title: RedCup
 description: "Redcup: An awesome Theme for Jekyll"
 url: http://nadjetey.github.io/redcup
 port: 3000
-pygments: true
+highlighter: pygments
 
 permalink: /:year/:month/:day/:title.html
 markdown: redcarpet
