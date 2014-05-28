@@ -1,0 +1,14 @@
+body {
+  background:white; color:black;
+  font:11pt georgia, serif;
+  line-height:1.4;
+  font-weight: lighter;
+  margin: 4em 8em;
+  text-rendering: optimizelegibility;
+}
+h1,h2,h3,h4 { font-family: 'Helvetica Neue', helvetica, sans-serif; }
+a { text-decoration:none; color:inherit; }
+header, footer { display:none; }
+div.post { page-break-before: always; }
+  div.post div.body img { max-width:180mm; }
+  div.post div.body *[align=right] { margin-left:1em; margin-bottom:1em; }
